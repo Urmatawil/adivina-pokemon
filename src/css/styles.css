@@ -1,0 +1,44 @@
+:root {
+	--fire: #fc9b40;
+	--grass: #6dfa76;
+	--electric: #ddfc32;
+	--water: #82ccee;
+	--ground: #af8154;
+	--rock: #a8a875;
+	--fairy: #f2d2f8;
+	--poison: #e70e9f;
+	--bug: #dbcebc;
+	--dragon: #97b3e6;
+	--psychic: #eaeda1;
+	--flying: #b8cbd6;
+	--fighting: #fa6f4c;
+	--normal: #eedfdf;
+	--ice: #b8dfff;
+	--ghost: #9b1467;
+	--steel: #9389b6;
+}
+
+html,
+body {
+	background-color: #f1f1f1;
+	margin: 0px;
+}
+
+button {
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 6px;
+	background-color: var(--electric);
+	border: none;
+	box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+		0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+		0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+.bad-answer {
+	background-color: var(--poison);
+}
+
+.good-answer {
+	background-color: var(--grass);
+}
